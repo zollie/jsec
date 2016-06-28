@@ -1,0 +1,5 @@
+ktpass -out c:\http-someserver.keytab -princ HTTP/someserver.com@GITHUB.COM -mapUser someuser -mapOp set -pass p@ssw)rd -kvno 5
+
+ktpass -out c:\http-someserver.keytab -princ HTTP/someserver.com@GITHUB.COM -mapUser aixqadev1 -mapOp set -pass p@ssw)rd -kvno 5 -crypto DES-CBC-MD5 -pType KRB5_NT_PRINCIPAL
+
+setspn -A HTTP/someserver.com someserver

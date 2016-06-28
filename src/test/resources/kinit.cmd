@@ -1,0 +1,1 @@
+kinit -f -c "$HOME/$USER.keytab"
